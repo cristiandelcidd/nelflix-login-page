@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header .hero {
+  height: 120vh;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.445))), url(img/background.jpg);
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.445)), url(img/background.jpg);
+  background-size: unset;
+}
+
+.header .hero .logo {
+  width: 13%;
+  position: relative;
+  top: 25px;
+  left: 40px;
+}
+
+.header .hero .signin {
+  background-color: #000;
+  width: 450px;
+  color: #fff;
+  margin: 40px auto;
+  padding: 70px;
+}
+
+.header .hero .signin h2 {
+  margin: 0 0 25px;
+  font-size: 30px;
+}
+
+.header .hero .signin input {
+  display: block;
+  color: #fff;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+}
+
+.header .hero .signin input[type='text'], .header .hero .signin input[type='password'] {
+  background-color: #353535;
+  font-size: 15px;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+.header .hero .signin input[type='text']::-webkit-input-placeholder, .header .hero .signin input[type='password']::-webkit-input-placeholder {
+  color: #949494;
+  font-size: 16px;
+}
+
+.header .hero .signin input[type='text']:-ms-input-placeholder, .header .hero .signin input[type='password']:-ms-input-placeholder {
+  color: #949494;
+  font-size: 16px;
+}
+
+.header .hero .signin input[type='text']::-ms-input-placeholder, .header .hero .signin input[type='password']::-ms-input-placeholder {
+  color: #949494;
+  font-size: 16px;
+}
+
+.header .hero .signin input[type='text']::placeholder, .header .hero .signin input[type='password']::placeholder {
+  color: #949494;
+  font-size: 16px;
+}
+
+.header .hero .signin input[type='submit'] {
+  background-color: red;
+  font-size: 16px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.header .hero .signin .help {
+  color: #949494;
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header .hero .signin .help .check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .hero .signin .help .check input {
+  width: 20px;
+  height: 20px;
+}
+
+.header .hero .signin .help .check label {
+  margin-left: 5px;
+  width: 100%;
+}
+
+.header .hero .signin .help .need a {
+  text-decoration: none;
+  color: #949494;
+}
+
+.header .hero .signin .footer-signin {
+  margin-top: 30px;
+}
+
+.header .hero .signin .footer-signin .login {
+  text-decoration: none;
+  color: #727272;
+  font-size: 13px;
+}
+
+.header .hero .signin .footer-signin .login .facebook {
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.header .hero .signin .footer-signin .new {
+  margin-top: 12px;
+  font-size: 17px;
+  color: #727272;
+  font-weight: lighter;
+}
+
+.header .hero .signin .footer-signin .new a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.header .hero .signin .footer-signin .protect {
+  margin-top: 12px;
+  font-size: 13px;
+  color: #9b9b9b;
+}
+
+.header .hero .signin .footer-signin .protect a {
+  text-decoration: none;
+  color: #5656ff;
+}
+/*# sourceMappingURL=style.css.map */
